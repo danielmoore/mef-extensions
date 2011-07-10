@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3cade081-28b0-418f-b2ca-55cdcf6b2d4a" name="daniel@CYGNUS 2011-07-10 17:53:46" runUser="NORTHHORIZON\daniel" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="d42a5444-b653-4028-9409-3668a7dd32ab">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="daniel_CYGNUS 2011-07-10 17_53_46">
+      <DeploymentItem filename="c:\dev\mef-extensions\NorthHorizon.Common.Composition\bin\Debug\NorthHorizon.Common.Composition.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-07-10T17:53:46.0473965-04:00" queuing="2011-07-10T17:53:48.4495339-04:00" start="2011-07-10T17:53:48.6145433-04:00" finish="2011-07-10T17:53:50.1606317-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="10" executed="10" passed="10" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestDispose" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="9d5dbdd3-cc46-f3fa-7ca1-77b0f860482e">
+      <Execution id="e1de9ec5-bde2-40a5-a0b2-cfaab1ff09af" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestDispose" />
+    </UnitTest>
+    <UnitTest name="TestExcluded" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="738eefd1-f39a-a168-a60f-42e1a758e514">
+      <Execution id="8fa50916-1b44-4ebc-8aac-6d538274393e" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestExcluded" />
+    </UnitTest>
+    <UnitTest name="TestNamespaceExcluded" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="e8a3e06a-c175-6c52-0c92-2d12569da577">
+      <Execution id="b699ba4d-17ff-4ea6-9235-e65350534242" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNamespaceExcluded" />
+    </UnitTest>
+    <UnitTest name="TestAssemblyIncluded" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="e815ea93-4590-81d2-8fa7-4c3638e75b5c">
+      <Execution id="4c53e5e0-dcdc-4a6a-8ec9-9813b53c5c09" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAssemblyIncluded" />
+    </UnitTest>
+    <UnitTest name="TestNamespaceScopeInheritance" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="db7e9b6f-9fcd-f85d-9b4f-1f4ace34d250">
+      <Execution id="b95ddef1-ba32-4205-9ddd-e4ac9a1c7bc5" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNamespaceScopeInheritance" />
+    </UnitTest>
+    <UnitTest name="TestIncluded" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="0a54dd6b-b3f4-28a5-0b56-2ced85e4bac8">
+      <Execution id="ec3c645f-4c2d-4241-99bf-b008d6a664c4" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestIncluded" />
+    </UnitTest>
+    <UnitTest name="TestCatalogReuse" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="fe180cae-01f4-e309-e0a8-0e9e22bbe31e">
+      <Execution id="564a7571-9cca-4020-8720-7d3be351e104" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestCatalogReuse" />
+    </UnitTest>
+    <UnitTest name="TestScopeInheritance" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="30350c5b-a47c-ac6f-0903-f5c2b46d3866">
+      <Execution id="18914638-fd2d-47bd-9cbd-459a35beb8dc" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestScopeInheritance" />
+    </UnitTest>
+    <UnitTest name="TestAssemblyExcluded" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="ec06d67e-a8ba-ee25-fd59-29de6af4fc72">
+      <Execution id="e8f65e7a-f912-4351-912d-ef64929aa5b2" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestAssemblyExcluded" />
+    </UnitTest>
+    <UnitTest name="TestNamespaceIncluded" storage="c:\dev\mef-extensions\northhorizon.common.composition.tests\bin\debug\northhorizon.common.composition.tests.dll" id="0c5f6bc6-513a-6203-e17a-2e46f8432cd4">
+      <Execution id="dd3c06ea-09f0-4414-ac2d-d570a243a87a" />
+      <TestMethod codeBase="c:/dev/mef-extensions/NorthHorizon.Common.Composition.Tests/bin/Debug/NorthHorizon.Common.Composition.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="NorthHorizon.Common.Composition.Tests.CompositionContainerExtensionsTestFixture, NorthHorizon.Common.Composition.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestNamespaceIncluded" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0a54dd6b-b3f4-28a5-0b56-2ced85e4bac8" executionId="ec3c645f-4c2d-4241-99bf-b008d6a664c4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0c5f6bc6-513a-6203-e17a-2e46f8432cd4" executionId="dd3c06ea-09f0-4414-ac2d-d570a243a87a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="30350c5b-a47c-ac6f-0903-f5c2b46d3866" executionId="18914638-fd2d-47bd-9cbd-459a35beb8dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="738eefd1-f39a-a168-a60f-42e1a758e514" executionId="8fa50916-1b44-4ebc-8aac-6d538274393e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d5dbdd3-cc46-f3fa-7ca1-77b0f860482e" executionId="e1de9ec5-bde2-40a5-a0b2-cfaab1ff09af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="db7e9b6f-9fcd-f85d-9b4f-1f4ace34d250" executionId="b95ddef1-ba32-4205-9ddd-e4ac9a1c7bc5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e815ea93-4590-81d2-8fa7-4c3638e75b5c" executionId="4c53e5e0-dcdc-4a6a-8ec9-9813b53c5c09" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e8a3e06a-c175-6c52-0c92-2d12569da577" executionId="b699ba4d-17ff-4ea6-9235-e65350534242" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec06d67e-a8ba-ee25-fd59-29de6af4fc72" executionId="e8f65e7a-f912-4351-912d-ef64929aa5b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe180cae-01f4-e309-e0a8-0e9e22bbe31e" executionId="564a7571-9cca-4020-8720-7d3be351e104" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="ec3c645f-4c2d-4241-99bf-b008d6a664c4" testId="0a54dd6b-b3f4-28a5-0b56-2ced85e4bac8" testName="TestIncluded" computerName="CYGNUS" duration="00:00:00.2790076" startTime="2011-07-10T17:53:48.6395447-04:00" endTime="2011-07-10T17:53:49.6916049-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ec3c645f-4c2d-4241-99bf-b008d6a664c4">
+    </UnitTestResult>
+    <UnitTestResult executionId="dd3c06ea-09f0-4414-ac2d-d570a243a87a" testId="0c5f6bc6-513a-6203-e17a-2e46f8432cd4" testName="TestNamespaceIncluded" computerName="CYGNUS" duration="00:00:00.0160635" startTime="2011-07-10T17:53:49.6946051-04:00" endTime="2011-07-10T17:53:49.7396077-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="dd3c06ea-09f0-4414-ac2d-d570a243a87a">
+    </UnitTestResult>
+    <UnitTestResult executionId="18914638-fd2d-47bd-9cbd-459a35beb8dc" testId="30350c5b-a47c-ac6f-0903-f5c2b46d3866" testName="TestScopeInheritance" computerName="CYGNUS" duration="00:00:00.0178607" startTime="2011-07-10T17:53:49.7436079-04:00" endTime="2011-07-10T17:53:49.7726096-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18914638-fd2d-47bd-9cbd-459a35beb8dc">
+    </UnitTestResult>
+    <UnitTestResult executionId="8fa50916-1b44-4ebc-8aac-6d538274393e" testId="738eefd1-f39a-a168-a60f-42e1a758e514" testName="TestExcluded" computerName="CYGNUS" duration="00:00:00.0137646" startTime="2011-07-10T17:53:49.7766098-04:00" endTime="2011-07-10T17:53:49.8006112-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8fa50916-1b44-4ebc-8aac-6d538274393e">
+    </UnitTestResult>
+    <UnitTestResult executionId="e1de9ec5-bde2-40a5-a0b2-cfaab1ff09af" testId="9d5dbdd3-cc46-f3fa-7ca1-77b0f860482e" testName="TestDispose" computerName="CYGNUS" duration="00:00:00.0164663" startTime="2011-07-10T17:53:49.8066115-04:00" endTime="2011-07-10T17:53:49.8316129-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1de9ec5-bde2-40a5-a0b2-cfaab1ff09af">
+    </UnitTestResult>
+    <UnitTestResult executionId="b95ddef1-ba32-4205-9ddd-e4ac9a1c7bc5" testId="db7e9b6f-9fcd-f85d-9b4f-1f4ace34d250" testName="TestNamespaceScopeInheritance" computerName="CYGNUS" duration="00:00:00.0162557" startTime="2011-07-10T17:53:49.8356132-04:00" endTime="2011-07-10T17:53:49.8606146-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b95ddef1-ba32-4205-9ddd-e4ac9a1c7bc5">
+    </UnitTestResult>
+    <UnitTestResult executionId="4c53e5e0-dcdc-4a6a-8ec9-9813b53c5c09" testId="e815ea93-4590-81d2-8fa7-4c3638e75b5c" testName="TestAssemblyIncluded" computerName="CYGNUS" duration="00:00:00.0170194" startTime="2011-07-10T17:53:49.8656149-04:00" endTime="2011-07-10T17:53:49.8916164-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c53e5e0-dcdc-4a6a-8ec9-9813b53c5c09">
+    </UnitTestResult>
+    <UnitTestResult executionId="b699ba4d-17ff-4ea6-9235-e65350534242" testId="e8a3e06a-c175-6c52-0c92-2d12569da577" testName="TestNamespaceExcluded" computerName="CYGNUS" duration="00:00:00.0156796" startTime="2011-07-10T17:53:49.8956166-04:00" endTime="2011-07-10T17:53:49.9216181-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b699ba4d-17ff-4ea6-9235-e65350534242">
+    </UnitTestResult>
+    <UnitTestResult executionId="e8f65e7a-f912-4351-912d-ef64929aa5b2" testId="ec06d67e-a8ba-ee25-fd59-29de6af4fc72" testName="TestAssemblyExcluded" computerName="CYGNUS" duration="00:00:00.0159227" startTime="2011-07-10T17:53:49.9246182-04:00" endTime="2011-07-10T17:53:49.9516198-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8f65e7a-f912-4351-912d-ef64929aa5b2">
+    </UnitTestResult>
+    <UnitTestResult executionId="564a7571-9cca-4020-8720-7d3be351e104" testId="fe180cae-01f4-e309-e0a8-0e9e22bbe31e" testName="TestCatalogReuse" computerName="CYGNUS" duration="00:00:00.0184939" startTime="2011-07-10T17:53:49.9556200-04:00" endTime="2011-07-10T17:53:50.0406249-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="564a7571-9cca-4020-8720-7d3be351e104">
+    </UnitTestResult>
+  </Results>
+</TestRun>
