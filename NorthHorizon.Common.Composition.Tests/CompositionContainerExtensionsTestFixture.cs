@@ -109,7 +109,7 @@ namespace NorthHorizon.Common.Composition.Tests
         [TestMethod]
         public void TestScopeInheritance()
         {
-            AreSame<TestType2.ChildTestType>(_parentContainer, _quoiContainer);
+            AreNotSame<TestType2.ChildTestType>(_parentContainer, _quoiContainer);
         }
 
         [TestMethod]

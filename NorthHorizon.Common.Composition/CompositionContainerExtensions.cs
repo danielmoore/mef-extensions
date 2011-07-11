@@ -198,9 +198,6 @@ namespace NorthHorizon.Common.Composition
                         .Select(s => s.ShouldIncludeInContainer()),
 
                     // Type Scopes
-                    //accessors
-                    //    .Select(a => a.DeclaringType)
-                    //    .Where(t => t != null)
                     GetDeclaringTypes(accessors)
                         .SelectMany(Attribute.GetCustomAttributes)
                         .OfType<ILocalCompositionContainerScope>()
@@ -231,14 +228,14 @@ namespace NorthHorizon.Common.Composition
                 return result ?? false;
             }
 
-            private IEnumerable<Type> GetDeclaringTypes(IEnumerable<MemberInfo> members)
+            private static IEnumerable<Type> GetDeclaringTypes(IEnumerable<MemberInfo> members)
             {
                 var types = new List<Type>();
 
                 var currentMembers = members;
                 while (currentMembers.Any())
                 {
-                    var declaringTypes = currentMembers.Select(m => m.DeclaringType).Where(t => t != null).Where(t => !types.Contains(t));
+                    var declaringTypes = currentMembers.Select(m => m.DeclaringType).Where(t => t != null).Where(t => !types.Contains(t)).ToList();
                     types.AddRange(declaringTypes);
                     currentMembers = declaringTypes;
                 }
