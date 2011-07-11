@@ -109,13 +109,19 @@ namespace NorthHorizon.Common.Composition.Tests
         [TestMethod]
         public void TestScopeInheritance()
         {
-            AreSame<TestType2.ChildTestType>(_barContainer, _parentContainer);
+            AreSame<TestType2.ChildTestType>(_parentContainer, _quoiContainer);
         }
 
         [TestMethod]
         public void TestNamespaceScopeInheritance()
         {
             AreSame<TestNamespace.TestType>(_quoiContainer, _parentContainer);
+        }
+
+        [TestMethod]
+        public void TestDeepTypeHierarchy()
+        {
+            AreNotSame<TestType3.ChildTestType.ChildChildTestType>(_fooContainer, _parentContainer);
         }
 
         private static void AreSame<T>(CompositionContainer leftScope, CompositionContainer rightScope, string contractName = null)
@@ -179,6 +185,16 @@ namespace NorthHorizon.Common.Composition.Tests
         {
             [Export]
             public class ChildTestType { }
+        }
+
+        [CompositionContainerScope(FooScopeName)]
+        private class TestType3
+        {
+            public class ChildTestType
+            {
+                [Export]
+                public class ChildChildTestType { }
+            }
         }
     }
 

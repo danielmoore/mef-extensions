@@ -1,5 +1,0 @@
-c:\dev\mef-extensions\NorthHorizon.Common.Composition\obj\Debug\ResolveAssemblyReference.cache
-c:\dev\mef-extensions\NorthHorizon.Common.Composition\bin\Debug\NorthHorizon.Common.Composition.dll
-c:\dev\mef-extensions\NorthHorizon.Common.Composition\bin\Debug\NorthHorizon.Common.Composition.pdb
-c:\dev\mef-extensions\NorthHorizon.Common.Composition\obj\Debug\NorthHorizon.Common.Composition.dll
-c:\dev\mef-extensions\NorthHorizon.Common.Composition\obj\Debug\NorthHorizon.Common.Composition.pdb

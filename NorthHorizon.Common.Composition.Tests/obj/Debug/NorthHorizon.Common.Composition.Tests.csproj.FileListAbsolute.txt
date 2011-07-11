@@ -1,7 +1,0 @@
-c:\dev\mef-extensions\NorthHorizon.Common.Composition.Tests\obj\Debug\ResolveAssemblyReference.cache
-c:\dev\mef-extensions\NorthHorizon.Common.Composition.Tests\bin\Debug\NorthHorizon.Common.Composition.Tests.dll
-c:\dev\mef-extensions\NorthHorizon.Common.Composition.Tests\bin\Debug\NorthHorizon.Common.Composition.Tests.pdb
-c:\dev\mef-extensions\NorthHorizon.Common.Composition.Tests\bin\Debug\NorthHorizon.Common.Composition.dll
-c:\dev\mef-extensions\NorthHorizon.Common.Composition.Tests\bin\Debug\NorthHorizon.Common.Composition.pdb
-c:\dev\mef-extensions\NorthHorizon.Common.Composition.Tests\obj\Debug\NorthHorizon.Common.Composition.Tests.dll
-c:\dev\mef-extensions\NorthHorizon.Common.Composition.Tests\obj\Debug\NorthHorizon.Common.Composition.Tests.pdb

@@ -198,9 +198,10 @@ namespace NorthHorizon.Common.Composition
                         .Select(s => s.ShouldIncludeInContainer()),
 
                     // Type Scopes
-                    accessors
-                        .Select(a => a.DeclaringType)
-                        .Where(t => t != null)
+                    //accessors
+                    //    .Select(a => a.DeclaringType)
+                    //    .Where(t => t != null)
+                    GetDeclaringTypes(accessors)
                         .SelectMany(Attribute.GetCustomAttributes)
                         .OfType<ILocalCompositionContainerScope>()
                         .Where(IsInScope)
@@ -228,6 +229,21 @@ namespace NorthHorizon.Common.Composition
                 var result = scopeSets.Select(s => s.Aggregate((bool?)null, Conjoin)).FirstOrDefault(v => v.HasValue);
 
                 return result ?? false;
+            }
+
+            private IEnumerable<Type> GetDeclaringTypes(IEnumerable<MemberInfo> members)
+            {
+                var types = new List<Type>();
+
+                var currentMembers = members;
+                while (currentMembers.Any())
+                {
+                    var declaringTypes = currentMembers.Select(m => m.DeclaringType).Where(t => t != null).Where(t => !types.Contains(t));
+                    types.AddRange(declaringTypes);
+                    currentMembers = declaringTypes;
+                }
+
+                return types;
             }
 
             private bool IsInScope(IContainerScope scope)
